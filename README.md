@@ -1,8 +1,8 @@
-# 🚀 Midterm Deep Learning Project: Fraud, Regression, and Clustering Analysis
+# 🚀 Midterm Machine learning: Fraud, Regression, and Clustering Analysis
 
 **Oleh:** Rahmanda Afebrio Yuris Soesatyo (1103223024)
 
-Proyek *midterm* Deep Learning ini terdiri dari tiga bagian utama, yang mencakup klasifikasi (Fraud Detection), regresi (Time Series Prediction), dan clustering (Segmentation).
+Proyek *midterm* ML ini terdiri dari tiga bagian utama, yang mencakup klasifikasi (Fraud Detection), regresi (Time Series Prediction), dan clustering (Segmentation).
 
 ## Daftar Isi
 1. [Proyek 1: Klasifikasi - Mendeteksi Transaksi Fraud (Imbalanced Data)](#1-proyek-1-klasifikasi---mendeteksi-transaksi-fraud-imbalanced-data)
