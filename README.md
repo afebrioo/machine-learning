@@ -57,9 +57,28 @@ Materi proyek ujian tengah semester yang terdiri dari tiga bagian utama:
 
 ---
 
+## 🎓 3. Proyek UAS (Ujian Akhir Semester) Machine Learning
+
+Proyek ujian akhir semester dengan pipeline Deep Learning end-to-end untuk dua tugas berbeda:
+
+### 3.1. Task 1 — Fraud Detection (Klasifikasi)
+*   **Tujuan:** Klasifikasi biner transaksi fraud menggunakan MLP + SMOTE + Optuna hyperparameter tuning.
+*   **Dataset:** 590,540 transaksi finansial | Fitur: ~394 kolom setelah preprocessing
+*   **Model:** MLP (Binary Crossentropy) + Optuna + MLFlow tracking
+*   **Folder:** [UAS/Task1_FraudDetection](UAS/Task1_FraudDetection/)
+
+### 3.2. Task 2 — Song Year Regression (Regresi)
+*   **Tujuan:** Memprediksi tahun rilis lagu berdasarkan 90 fitur audio numerik.
+*   **Dataset:** 515,345 lagu | Rentang tahun: 1922–2011 | 95 fitur (setelah feature engineering)
+*   **Model:** MLP (Huber Loss) + **LightGBM** sebagai pembanding + Optuna + MLFlow + LIME
+*   **Hasil Terbaik:** MLP — MAE **5.64 tahun** | R² **0.360**
+*   **Folder:** [UAS/Task2_SongYearRegression](UAS/Task2_SongYearRegression/)
+
+---
+
 ## 🛠️ Persyaratan Lingkungan (Requirements)
 
 Untuk menjalankan seluruh notebook di repositori ini, pasang dependensi utama berikut:
 ```bash
-pip install numpy<2 pandas matplotlib seaborn scipy sympy scikit-learn scikit-image statsmodels dmba wquantiles tensorflow torch plotly
+pip install numpy<2 pandas matplotlib seaborn scipy sympy scikit-learn scikit-image statsmodels dmba wquantiles tensorflow torch plotly optuna mlflow imbalanced-learn lime lightgbm
 ```

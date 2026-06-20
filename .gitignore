@@ -4,3 +4,17 @@ __pycache__/
 .ipynb_checkpoints/
 *.zip
 *.rar
+
+# Dataset besar — tidak di-push ke repo
+UAS/Task1_FraudDetection/*.csv
+UAS/Task2_SongYearRegression/*.csv
+
+# MLFlow tracking files
+mlflow.db
+mlruns/
+UAS/**/mlflow.db
+UAS/**/mlruns/
+
+# Model artifacts
+*.h5
+*.keras
